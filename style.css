@@ -32,28 +32,27 @@ body {
   margin: auto;
 }
 
-.card1:hover,
-.shadow {
+.card1:hover {
   box-shadow: 0.2rem 0.5rem 5rem #34e7e4;
 }
 
 .card2:hover,
-.shadow {
+.card7:hover {
   box-shadow: 0.2rem 0.5rem 5rem #e67e22;
 }
 
 .card3:hover,
-.shadow {
+.card9:hover {
   box-shadow: 0.2rem 0.5rem 5rem #1abc9c;
 }
 
 .card4:hover,
-.shadow {
+.card8:hover {
   box-shadow: 0.2rem 0.5rem 5rem #3498db;
 }
 
 .card5:hover,
-.shadow {
+.card10:hover {
   box-shadow: 0.2rem 0.5rem 5rem #e74c3c;
 }
 
@@ -98,8 +97,9 @@ body {
 .info {
   text-align: center;
   position: absolute;
-  top: 30%;
-  left: 20%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 /* 
 .card4 .info {
